@@ -1,8 +1,10 @@
 ## Apache2 with php5 on Ubuntu 14.04 LTS
 
-This is docker images of Ubuntu 14.04 LTS with apache2 and php5
+This is docker images of Ubuntu 14.04 LTS with apache2 and php5/composer
 
 To access site contents from utside the container you should map /var/www
+
+Includes composer for easy download of php libraries
 
 ### Examples
 
