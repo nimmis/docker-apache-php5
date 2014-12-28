@@ -11,6 +11,10 @@ php5-fpm php5-cli php5-mysqlnd php5-pgsql php5-sqlite php5-redis \
 php5-apcu php5-intl php5-imagick php5-mcrypt php5-json php5-gd php5-curl && \
 rm -rf /var/lib/apt/lists/*
 
+# enable mcrypt
+
+RUN php5enmod mcrypt
+
 # Install composer
 RUN cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
