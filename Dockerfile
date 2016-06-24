@@ -1,4 +1,4 @@
-FROM nimmis/apache
+FROM nimmis/apache:14.04
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
