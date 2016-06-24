@@ -6,7 +6,7 @@ To access site contents from utside the container you should map /var/www
 
 Includes composer for easy download of php libraries
 
-For php7 please se the Ubunut 16.04 LTS and php7 container [nimmis/apache-php7](https://hub.docker.com/r/nimmis/apache-php7/)
+For php7 please se the Ubuntu 16.04 LTS and php7 container [nimmis/apache-php7](https://hub.docker.com/r/nimmis/apache-php7/)
 
 ### Examples
 
