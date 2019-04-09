@@ -2,7 +2,7 @@
 
 This is docker images of Ubuntu 14.04 LTS with apache2 and php5/composer
 
-To access site contents from utside the container you should map /var/www/html
+To access site contents from outside the container you should map /var/www/html
 
 Includes composer for easy download of php libraries
 
